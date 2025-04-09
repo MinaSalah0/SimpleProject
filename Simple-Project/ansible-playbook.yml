@@ -1,6 +1,6 @@
 ---
 - name: "Build and run container on both servers"
-  hosts: all
+  hosts: webservers
   become: yes
   tasks:
     - name: Stop current running container
